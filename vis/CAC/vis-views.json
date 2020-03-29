@@ -42079,7 +42079,7 @@
         "data": {
           "oid": "git_pull",
           "visibility-cond": "==",
-          "visibility-val": "0",
+          "visibility-val": "1",
           "buttontext": "Download from <<<---Server",
           "html_prepend": "",
           "html_append": "",
@@ -42124,7 +42124,7 @@
         "data": {
           "oid": "git_push",
           "visibility-cond": "==",
-          "visibility-val": "0",
+          "visibility-val": "1",
           "buttontext": "Update to ---->>>>Server ",
           "html_prepend": "",
           "html_append": "",
@@ -42296,8 +42296,6 @@
     "rerender": false,
     "filterList": [],
     "name": "git",
-    "activeWidgets": [
-      "w00015"
-    ]
+    "activeWidgets": []
   }
 }
