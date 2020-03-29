@@ -42183,8 +42183,8 @@
           "buttonsText5": "ABOUT",
           "buttonsOption5": "ABOUT",
           "bCount": "1",
-          "visibility-cond": ">=",
-          "visibility-val": "99",
+          "visibility-cond": "==",
+          "visibility-val": "1",
           "bTheme": "sidebar-dark",
           "bPosition": "floatHorizontal",
           "bSpace": "5",
@@ -42232,7 +42232,8 @@
           "signals-blink-2": false,
           "signals-horz-2": 0,
           "signals-vert-2": 0,
-          "signals-hide-edit-2": false
+          "signals-hide-edit-2": false,
+          "visibility-oid": "git_pull"
         },
         "style": {
           "left": "632px",
@@ -42291,11 +42292,58 @@
           "text-align": "center"
         },
         "widgetSet": "basic"
+      },
+      "w00021": {
+        "tpl": "tplJquiButtonState",
+        "data": {
+          "oid": "git_reboot",
+          "visibility-cond": "==",
+          "visibility-val": "0",
+          "buttontext": "Please Reboot",
+          "html_prepend": "",
+          "html_append": "",
+          "value": "1",
+          "visibility-groups-action": "hide",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "visibility-oid": "git_pull"
+        },
+        "style": {
+          "left": "28px",
+          "top": "5px",
+          "width": "763px",
+          "height": "473px"
+        },
+        "widgetSet": "jqui"
       }
     },
     "rerender": false,
     "filterList": [],
     "name": "git",
-    "activeWidgets": []
+    "activeWidgets": [
+      "w00021"
+    ]
   }
 }
