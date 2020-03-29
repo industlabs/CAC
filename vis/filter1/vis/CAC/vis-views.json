@@ -18,11 +18,5 @@
       "light;data"
     ],
     "activeWidgets": []
-  },
-  "___settings": {
-    "reloadOnSleep": 30,
-    "reconnectInterval": 10000,
-    "darkReloadScreen": false,
-    "destroyViewsAfter": 30
   }
 }
