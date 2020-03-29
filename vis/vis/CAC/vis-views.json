@@ -42383,10 +42383,10 @@
           "visibility-oid": "git_pull_reboot"
         },
         "style": {
-          "left": "140px",
-          "top": "177px",
-          "width": "567px",
-          "height": "176px",
+          "left": "232px",
+          "top": "330px",
+          "width": "321px",
+          "height": "130px",
           "z-index": 1,
           "border-color": "green",
           "background-color": "green",
