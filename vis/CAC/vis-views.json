@@ -42112,10 +42112,11 @@
           "visibility-oid": "git_pull"
         },
         "style": {
-          "left": "230px",
-          "top": "100px",
+          "left": "233px",
+          "top": "64px",
           "width": "312px",
-          "height": "110px"
+          "height": "110px",
+          "z-index": 1
         },
         "widgetSet": "jqui"
       },
@@ -42157,10 +42158,11 @@
           "visibility-oid": "git_pull"
         },
         "style": {
-          "left": "226px",
-          "top": "294px",
+          "left": "233px",
+          "top": "192px",
           "width": "319px",
-          "height": "119px"
+          "height": "119px",
+          "z-index": 1
         },
         "widgetSet": "jqui"
       },
@@ -42240,7 +42242,7 @@
           "top": "11px",
           "width": "149px",
           "height": "52px",
-          "z-index": 1,
+          "z-index": 2,
           "color": "black"
         },
         "widgetSet": "bars"
@@ -42251,7 +42253,7 @@
           "oid": "",
           "visibility-cond": "==",
           "visibility-val": "1",
-          "html_prepend": "Update/Download Controller Softare",
+          "html_prepend": "Update/Download Controller Software",
           "name": "",
           "visibility-oid": "",
           "visibility-groups-action": "hide",
@@ -42289,7 +42291,8 @@
           "width": "193px",
           "height": "62px",
           "font-size": "large",
-          "text-align": "center"
+          "text-align": "center",
+          "z-index": 1
         },
         "widgetSet": "basic"
       },
@@ -42331,11 +42334,57 @@
           "visibility-oid": "git_pull"
         },
         "style": {
-          "left": "28px",
-          "top": "5px",
+          "left": "37px",
+          "top": "6px",
           "width": "763px",
           "height": "473px",
-          "z-index": 2
+          "z-index": 0
+        },
+        "widgetSet": "jqui"
+      },
+      "w00091": {
+        "tpl": "tplJquiButtonState",
+        "data": {
+          "oid": "git_pull_shutdown",
+          "visibility-cond": "==",
+          "visibility-val": "1",
+          "buttontext": "Press to Restart After Update or Download",
+          "html_prepend": "",
+          "html_append": "",
+          "value": "1",
+          "visibility-groups-action": "hide",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "visibility-oid": ""
+        },
+        "style": {
+          "left": "235px",
+          "top": "326px",
+          "width": "319px",
+          "height": "119px",
+          "z-index": 1
         },
         "widgetSet": "jqui"
       }
@@ -42344,7 +42393,7 @@
     "filterList": [],
     "name": "git",
     "activeWidgets": [
-      "w00021"
+      "w00029"
     ]
   }
 }
