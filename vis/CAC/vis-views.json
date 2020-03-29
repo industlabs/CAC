@@ -42349,7 +42349,7 @@
         "data": {
           "oid": "git_reboot",
           "visibility-cond": "==",
-          "visibility-val": "1",
+          "visibility-val": "0",
           "buttontext": "Press to Restart After Update or Download",
           "html_prepend": "",
           "html_append": "",
@@ -42395,7 +42395,7 @@
     "filterList": [],
     "name": "git",
     "activeWidgets": [
-      "w00021"
+      "w00091"
     ]
   }
 }
