@@ -42079,7 +42079,7 @@
         "data": {
           "oid": "git_pull",
           "visibility-cond": "==",
-          "visibility-val": 1,
+          "visibility-val": "0",
           "buttontext": "Download from <<<---Server",
           "html_prepend": "",
           "html_append": "",
@@ -42108,7 +42108,8 @@
           "signals-blink-2": false,
           "signals-horz-2": 0,
           "signals-vert-2": 0,
-          "signals-hide-edit-2": false
+          "signals-hide-edit-2": false,
+          "visibility-oid": "git_pull"
         },
         "style": {
           "left": "230px",
@@ -42123,7 +42124,7 @@
         "data": {
           "oid": "git_push",
           "visibility-cond": "==",
-          "visibility-val": 1,
+          "visibility-val": "0",
           "buttontext": "Update to ---->>>>Server ",
           "html_prepend": "",
           "html_append": "",
@@ -42152,7 +42153,8 @@
           "signals-blink-2": false,
           "signals-horz-2": 0,
           "signals-vert-2": 0,
-          "signals-hide-edit-2": false
+          "signals-hide-edit-2": false,
+          "visibility-oid": "git_pull"
         },
         "style": {
           "left": "226px",
@@ -42294,6 +42296,8 @@
     "rerender": false,
     "filterList": [],
     "name": "git",
-    "activeWidgets": []
+    "activeWidgets": [
+      "w00015"
+    ]
   }
 }
