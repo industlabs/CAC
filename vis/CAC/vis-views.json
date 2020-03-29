@@ -42296,13 +42296,13 @@
       "w00021": {
         "tpl": "tplJquiButtonState",
         "data": {
-          "oid": "git_reboot",
+          "oid": "",
           "visibility-cond": "==",
-          "visibility-val": "1",
-          "buttontext": "Press to Please Reboot",
+          "visibility-val": "0",
+          "buttontext": "Press Wait Until its Done Updating/Downloading",
           "html_prepend": "",
           "html_append": "",
-          "value": "1",
+          "value": "",
           "visibility-groups-action": "hide",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -42328,7 +42328,7 @@
           "signals-horz-2": 0,
           "signals-vert-2": 0,
           "signals-hide-edit-2": false,
-          "visibility-oid": "git_pull_reboot"
+          "visibility-oid": "git_pull"
         },
         "style": {
           "left": "28px",
@@ -42343,6 +42343,8 @@
     "rerender": false,
     "filterList": [],
     "name": "git",
-    "activeWidgets": []
+    "activeWidgets": [
+      "w00021"
+    ]
   }
 }
