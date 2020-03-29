@@ -42338,7 +42338,9 @@
           "top": "6px",
           "width": "763px",
           "height": "473px",
-          "z-index": 0
+          "z-index": 0,
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "background-color": "#f5e65c"
         },
         "widgetSet": "jqui"
       },
@@ -42393,7 +42395,7 @@
     "filterList": [],
     "name": "git",
     "activeWidgets": [
-      "w00091"
+      "w00021"
     ]
   }
 }
