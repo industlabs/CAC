@@ -42383,10 +42383,10 @@
           "visibility-oid": "git_pull_reboot"
         },
         "style": {
-          "left": "235px",
-          "top": "326px",
-          "width": "319px",
-          "height": "119px",
+          "left": "140px",
+          "top": "177px",
+          "width": "567px",
+          "height": "176px",
           "z-index": 1,
           "border-color": "green",
           "background-color": "green",
@@ -42399,7 +42399,7 @@
     "filterList": [],
     "name": "git",
     "activeWidgets": [
-      "w00021"
+      "w00091"
     ]
   }
 }
