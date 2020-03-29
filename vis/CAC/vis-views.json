@@ -42345,7 +42345,7 @@
       "w00091": {
         "tpl": "tplJquiButtonState",
         "data": {
-          "oid": "git_pull_shutdown",
+          "oid": "git_reboot",
           "visibility-cond": "==",
           "visibility-val": "1",
           "buttontext": "Press to Restart After Update or Download",
@@ -42377,7 +42377,7 @@
           "signals-horz-2": 0,
           "signals-vert-2": 0,
           "signals-hide-edit-2": false,
-          "visibility-oid": ""
+          "visibility-oid": "git_pull"
         },
         "style": {
           "left": "235px",
@@ -42393,7 +42393,7 @@
     "filterList": [],
     "name": "git",
     "activeWidgets": [
-      "w00029"
+      "w00091"
     ]
   }
 }
