@@ -11876,7 +11876,7 @@
     "filterList": [],
     "name": "eth0",
     "activeWidgets": [
-      "w00218"
+      "w00236"
     ]
   },
   "FACT_RESET": {
@@ -34293,7 +34293,7 @@
           "buttonsOption1": "E_comm",
           "buttonsImage2": "",
           "buttonsOption2": "git",
-          "buttonsText2": "git",
+          "buttonsText2": "Update",
           "g_buttons_ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§3": false
         },
         "style": {
@@ -34581,7 +34581,7 @@
     "filterList": [],
     "name": "Settings",
     "activeWidgets": [
-      "e00007"
+      "w00314"
     ]
   },
   "E_dist_setup": {
@@ -39764,52 +39764,6 @@
       "snapType": 0
     },
     "widgets": {
-      "w00015": {
-        "tpl": "tplJquiButtonState",
-        "data": {
-          "oid": "git_pull",
-          "visibility-cond": "==",
-          "visibility-val": "1",
-          "buttontext": "Download from <<<---Server",
-          "html_prepend": "",
-          "html_append": "",
-          "value": "1",
-          "visibility-groups-action": "hide",
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "visibility-oid": "git_pull"
-        },
-        "style": {
-          "left": "233px",
-          "top": "64px",
-          "width": "312px",
-          "height": "110px",
-          "z-index": 1
-        },
-        "widgetSet": "jqui"
-      },
       "w00030": {
         "tpl": "tplBarNavigator",
         "data": {
@@ -39891,16 +39845,21 @@
         },
         "widgetSet": "bars"
       },
-      "w00092": {
-        "tpl": "tplValueString",
+      "w00021": {
+        "tpl": "tplHtml",
         "data": {
-          "oid": "",
+          "g_fixed": false,
+          "g_visibility": false,
+          "g_css_font_text": true,
+          "g_css_background": false,
+          "g_css_shadow_padding": false,
+          "g_css_border": false,
+          "g_gestures": false,
+          "g_signals": false,
           "visibility-cond": "==",
-          "visibility-val": "1",
-          "html_prepend": "Update/Download Controller Software",
-          "name": "",
-          "visibility-oid": "",
+          "visibility-val": 1,
           "visibility-groups-action": "hide",
+          "refreshInterval": "0",
           "signals-cond-0": "==",
           "signals-val-0": true,
           "signals-icon-0": "/vis/signals/lowbattery.png",
@@ -39925,125 +39884,21 @@
           "signals-horz-2": 0,
           "signals-vert-2": 0,
           "signals-hide-edit-2": false,
-          "views": [
-            "Diag"
-          ]
+          "html": "<a href=\"http://localhost:1880/vis/index.html#Home/\">Click Here to go to Factory Original Menu</a>"
         },
         "style": {
-          "left": "297px",
-          "top": "9px",
-          "width": "193px",
-          "height": "62px",
-          "font-size": "large",
-          "text-align": "center",
-          "z-index": 1
+          "left": "116px",
+          "top": "154px",
+          "width": "522px",
+          "height": "117px",
+          "font-size": "xx-large"
         },
         "widgetSet": "basic"
-      },
-      "w00021": {
-        "tpl": "tplJquiButtonState",
-        "data": {
-          "oid": "",
-          "visibility-cond": "==",
-          "visibility-val": "0",
-          "buttontext": "Press Wait Until its Done Updating/Downloading",
-          "html_prepend": "",
-          "html_append": "",
-          "value": "",
-          "visibility-groups-action": "hide",
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "visibility-oid": "git_pull"
-        },
-        "style": {
-          "left": "37px",
-          "top": "6px",
-          "width": "763px",
-          "height": "473px",
-          "z-index": 0,
-          "background": "green",
-          "background-color": "#f5e65c",
-          "border-color": "green"
-        },
-        "widgetSet": "jqui"
-      },
-      "w00091": {
-        "tpl": "tplJquiButtonState",
-        "data": {
-          "oid": "git_reboot",
-          "visibility-cond": "==",
-          "visibility-val": "0",
-          "buttontext": "Press to Restart After Update or Download",
-          "html_prepend": "",
-          "html_append": "",
-          "value": "1",
-          "visibility-groups-action": "hide",
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "visibility-oid": "git_pull_reboot"
-        },
-        "style": {
-          "left": "232px",
-          "top": "330px",
-          "width": "321px",
-          "height": "130px",
-          "z-index": 1,
-          "border-color": "green",
-          "background-color": "green",
-          "background": "green"
-        },
-        "widgetSet": "jqui"
       }
     },
     "rerender": false,
     "filterList": [],
     "name": "git",
-    "activeWidgets": [
-      "w00015"
-    ]
+    "activeWidgets": []
   }
 }
