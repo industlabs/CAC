@@ -35872,7 +35872,7 @@
     "filterList": [],
     "name": "desktop",
     "activeWidgets": [
-      "w00041"
+      "w00103"
     ]
   },
   "FACT_SETUP2": {
@@ -39806,52 +39806,6 @@
           "top": "64px",
           "width": "312px",
           "height": "110px",
-          "z-index": 1
-        },
-        "widgetSet": "jqui"
-      },
-      "w00029": {
-        "tpl": "tplJquiButtonState",
-        "data": {
-          "oid": "git_push",
-          "visibility-cond": "==",
-          "visibility-val": "1",
-          "buttontext": "Update to ---->>>>Server ",
-          "html_prepend": "",
-          "html_append": "",
-          "value": "1",
-          "visibility-groups-action": "hide",
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "visibility-oid": "git_pull"
-        },
-        "style": {
-          "left": "233px",
-          "top": "192px",
-          "width": "319px",
-          "height": "119px",
           "z-index": 1
         },
         "widgetSet": "jqui"
