@@ -1714,7 +1714,7 @@
           "signals-horz-2": 0,
           "signals-vert-2": 0,
           "signals-hide-edit-2": false,
-          "html": "<a href=\"http://localhost:1880/vis/index.html?CAC#A_home/\">Click Here to go to the Application Menu</a>"
+          "html": "<a href=\"http://localhost:1880/vis/index.html?CAC#A_home\">Click Here to go to the Application Menu</a>"
         },
         "style": {
           "left": "116px",
